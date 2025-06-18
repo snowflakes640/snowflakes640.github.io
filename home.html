@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #EEEEEE;
+      --heading-color: #F4A6B5;
+      --link-color: #007A5E;
+      --hover-color: #F4A6B5;
+      --border-color: #2B2B2B;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: var(--heading-color);
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: var(--text-color);
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: var(--hover-color);
+      border-color: var(--hover-color);
+      background-color: rgba(244, 166, 181, 0.05); /* slight blush glow */
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your Name</h1>
+
+  <div class="nav">
+    <a href="about.html">About Me</a>
+    <a href="resume.pdf" target="_blank">Résumé</a>
+    <a href="https://yourusername.github.io/notes" target="_blank">Learning Notes</a>
+    <a href="https://yourusername.github.io/blog" target="_blank">Personal Blog</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <footer>
+    © 2025 Your Name
+  </footer>
+</body>
+</html>
