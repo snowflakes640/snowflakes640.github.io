@@ -1,0 +1,148 @@
+:root {
+      --bg-color: #121212;
+      --text-color: #F2F2F2;
+      --heading-color: #84a59d;
+      --hover-color: #bd7c89;
+      --border-color: #2B2B2B;
+      --accent-color: #bd7c89;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    header h1 {
+      color: var(--heading-color);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header .quote {
+      font-style: italic;
+      color: var(--accent-color);
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      border-left: 4px solid var(--border-color);
+    }
+
+    section h2 {
+      color: var(--heading-color);
+      margin-top: 2rem;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: var(--link-color);
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      padding: 0.5rem 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: var(--hover-color);
+      border-color: var(--hover-color);
+      background-color: rgba(244, 166, 181, 0.1);
+    }
+
+    .role {
+      margin-bottom: 2.5rem;
+    }
+
+    .role h3 {
+      color: var(--heading-color);
+      margin-bottom: 0.3rem;
+    }
+
+    .org {
+      font-weight: bold;
+    }
+
+    .date {
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+    }
+
+    .learned {
+      font-style: italic;
+      color: #ccc;
+      margin-top: 0.6rem;
+    }
+
+    .divider {
+      margin: 3rem auto;
+      border-top: 1px solid var(--border-color);
+      width: 80%;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+    padding: 3.5rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #aaa;
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--border-color);
+  }
+
+  .footer-main {
+    margin-bottom: 0.3rem;
+    color: #888
+  }
+
+  .footer-contact {
+    color: #888;
+  }
+
+  .footer-contact a {
+    margin: 0 0.2rem;
+    color: #888;
+    text-decoration: none;
+    font-size: .75rem;
+  }
+
+  .footer-contact a:hover {
+    color: var(--hover-color);
+  }
