@@ -16,6 +16,19 @@
       line-height: 1.7;
     }
 
+    .body-index {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
     header {
       text-align: center;
       padding: 4rem 1rem 2rem;
